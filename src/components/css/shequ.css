@@ -1,0 +1,438 @@
+/* CSS Document */
+*{ margin:0px; padding:0px;}
+ul{ list-style:none;}
+body{ font-size:16px; font-family: "Microsoft Yahei"; background:#fff;}
+a{ text-decoration:none; color:#000; }
+img{ border:none;}
+
+.left { float:left;}
+.right { float:right;}
+.clear { clear:both;}
+.clearfix:after {visibility: hidden; display: block; clear: both; height: 0; font-size: 0; content: ".";}
+.clearfix{zoom:1;}
+.mt{margint-top:10px;}
+.mr-big{margin:20px 0px;}
+.center{ text-align:center;}
+.border{border:1px solid #F00;}
+.mr-top{ margin-top:20px;}
+.header{ height:60px; background:#333; line-height:60px; padding-right:20px;overflow: hidden;}
+.container{ width:1200px; margin:0 auto; color:#656e73;min-width: 1200px;}
+.left{ float:left;}
+.right{ float:right;}
+.course-nav-hd{
+	font-size:16px;
+	font-weight:bold;
+	color:##14191e;
+	height:30px;
+	line-height:30px;
+	padding:15px 0px;
+	border-bottom:1px solid #d0d6d9
+}
+.course-nav-row{
+	padding:15px 0px 5px;
+	border-bottom:1px solid #edf1f2;
+}	
+.course-tool-ba{
+	height:41px;
+	border-top:1px solid #d0d6d9;
+	background:#f9f9f9;
+	}
+.course-page-num{
+    height:100px;
+
+}
+.pageCenter{
+    width:500px;
+    height:100px;
+    text-align:center;
+    margin:0 auto;
+    overflow:hidden; 
+    padding-top:40px;
+}
+.pageCenter span{
+    float:left;
+    margin:0 10px;
+    height:24px;
+    line-height:24px;
+    cursor:pointer;
+    
+}
+.pageCenter .page:hover{
+    color:#b20000;
+    border-bottom:1px solid #b20000;
+    height:22px;
+}
+.pageList ul{
+}
+.pageList ul li{
+    float:left;
+    width:24px;
+    height:24px;
+    text-align:center;
+    line-height:24px;
+    margin: 0 4px;
+}
+        .current{
+    background-color:#F01400;
+    color:white;
+    border-radius:2px;
+}
+.newCourse{
+    height:40px;
+    line-height:40px;
+    background-color:#F9F9F9;
+    border-top:1px solid #D0D6D9;
+    margin-bottom:20px;
+}
+.newCourse span{
+    float:left;
+    margin:0 20px;
+	font-size:13px;
+}
+
+.newCourse span:hover,.newCourse span.active{
+    color:black;
+    cursor:pointer;
+}
+.ty_good_anwser{
+	line-height:80px;
+}
+.ty_good_anwser_content li,.ty_good_anwser_content_noe1 li{
+	float:left;
+}
+.ty_good_anwser_content li a,.ty_good_anwser_content_noe1 li a{
+	font-size:13px;
+	color:#656e73;
+	margin-left:49px;
+}
+.ty_good_anwser_content_noe1 li a{
+	font-size:16px;
+	color:#000;
+}
+.ty_good_anwser_content li a:hover{
+	color:#000;
+}
+
+.ty_mksq{
+	height:73px;
+	line-height:73px;
+	background:#eef1f2;
+}
+.centerLeft{width:840px;}
+.wjt_ty_margin{margin:0px 10px;}
+.wjt_ty_margin_small{margin:0px 5px;}
+.wjt_left{float: left;}
+.wjt_right{float: right;}
+/*左边用户信息*/
+.comQl{  width: 840px;  height: 154px; box-sizing: border-box; padding: 20px 0;
+    border-bottom: 1px solid #ccc;position: relative;}
+.comQl-user{  width: 90px;  height: 66px;  position: absolute; top:30px; }
+.comQl-user-pic{  width: 40px;  height: 40px; margin:auto;display: block; border-radius:50%;  background-color: #ccc;overflow: hidden;}
+.comQl-user-nm{  width: 90px;  height: 21px;  text-align: center;display: block; font-size: 12px;margin-top:5px;}
+/*中间问答部分*/
+.comQl-queAns{  width: 600px;  height: 103px;margin-left: 120px;  padding-top: 10px; position: absolute;}
+.comQl-queAns-Q{  width: 589px;  height: 20px;font-weight: bold;  line-height: 20px; font-size: 14px;}
+.comQl-queAns-Q-tag{color:white;  background-color: red;  width: 20px;  height: 20px;}
+.comQl-queAns-Q-con{ color:#000; }
+.comQl-queAns-Q-con:hover{ color:red; }
+.comQl-queAns-A{color:#787d82; font-size:12px; margin:10px 0px;}
+.comQl-queAns-A-tag{ color:#787d82; font-size:12px;  line-height: 20px; }
+.comQl-queAns-A-pic{  width: 16px;  height: 16px;  background-color: #ccc; border-radius: 50%; display:inline-block ;vertical-align:middle;overflow: hidden;}
+.comQl-queAns-A-nm{ color:#787d82; font-size: 12px;overflow: hidden; }
+.comQl-queAns-A-con{color:#787d82; font-size: 12px;overflow: hidden; }
+
+.comQl-queAns-O{  width: 590px;  height: 24px;padding-bottom:10px;margin-top:5px;font-size: 12px;color: #c8cdd2;}
+.comQl-queAns-O-time{ line-height: 24px;  margin-right: 20px;}
+.comQl-queAns-O-tag{  width: 48px;  height: 20px;  padding: 0 10px;  margin-top:2;margin-right:10px;background: #edf1f2;color: #c8cdd2; }
+.comQl-queAns-O-src{ color: #c8cdd2; padding-right: 10px;}
+.comQl-queAns-O-course{color: #c8cdd2;}
+/*最右浏览和回答*/
+.comQl-record{ font-size: 12px;  position: absolute;  top: 40px;  right: 10px;  height: 51px;  color: #787d82;  text-align: center; width: 100px; }
+.comQl-record-ans,.comQl-record-scan{width:50px;}
+.comQl-record-ans span{display: block;}
+.comQl-record-scan span{display: block;}
+.comQl-record-ansY{ color: #00b33b; }
+.comQl-record-ansN{ color: #787d82; }
+.comQl-record-ans-con{ margin-top:5px; }
+.comQl-record-scan-con{margin-top:5px;}
+.newques-btn {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color: #cc0000;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+}
+.centerRight{
+    width:280px;
+}
+.newques-container{
+    margin-bottom: 20px;
+
+}
+.newques-btn {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color: #cc0000;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.newques-label{
+    width: 100%;
+}
+.newques-label:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.hot-label{
+    padding: 0 10px;
+    color: #787d82;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 4px;
+    margin-top: 4px;
+    font-size: 12px;
+    background: #f8f8f8;
+    word-wrap: break-word;
+    white-space: nowrap;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    transition: all 0.25s;
+    text-decoration: none;
+}
+.hot-label:hover{
+    background: #dcdcdc;
+}
+.newques-label::after{
+    content: "";
+    clear: both;
+}
+.hot-list{
+    width: 100%;
+}
+.hot-list-box,.lei-list-box{
+    border-bottom: 2px solid #ccc;
+}
+.hot-list-box-title,.lei-list-box-title{
+    text-align: left;
+    text-decoration: none;
+    color: #2b2b2b;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+}.hot-list-box-title h2,.lei-list-box-title h2{
+
+     font-size: 20px;
+     font-family: "Microsoft YaHei";
+ }
+.weekly-hot{
+    list-style: none;
+}
+.weekly-hot li{
+     border-bottom: 1px solid #edf1f2;
+     padding: 20px 0 20px 0px;
+     line-height: 18px;
+     word-break: break-all;
+     white-space: pre-wrap;
+     overflow: hidden;
+     position: relative;
+     font-size: 12px;
+    text-align: left;
+}
+.weekly-hot-last{
+    border-bottom:none!important;
+}
+.weekly-hot li a {
+    width: 210px;
+    text-decoration: none;
+    word-break: break-all;
+    white-space: pre-wrap;
+    overflow: hidden;
+}
+.hoticon{
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    display: inline-block;
+    float: left;
+    margin-right: 9px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 2px;
+    font-style: normal;
+}
+.hot1{
+    background: #cc0000;
+
+}
+.hot2{
+    background: #ff3300;
+}
+.hot3{
+    background: #cccc00;
+}
+.hot4{
+    background: #ccc;
+}
+.hot5{
+    background: #ccc;
+}
+a.hottalk{
+    line-height: 20px;
+    width: 210px;
+    float: left;
+    text-align: left;
+    color:#14191e;
+    font-style: normal;
+    font: 14px/1.5 "Microsoft Yahei", "Hiragino Sans GB", Helvetica, "Helvetica Neue", "???��????", Tahoma, Arial, sans-serif;
+}
+a.hottalk:hover{
+    text-decoration: underline;
+    color: #b00606;
+}
+.rankingnum{
+    position: absolute;
+    top: 13px;
+    right: 0;
+    line-height: 16px;
+    font-style: normal;
+    text-align: center;
+    font-size: 12px;
+    color: #00b33b;
+}
+.leifeng-list-body{
+    width: 100%;
+    list-style: none;
+    text-align: left;
+}
+.leifeng-list-body li{
+    padding: 15px 0 15px 0px;
+    border-bottom: 1px solid #edf0f2;
+    overflow: hidden;
+    position: relative;
+    font-style: normal;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.leifeng-list-body a.rankingnickname {
+    margin-left: 10px;
+    display: block;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+    line-height: 18px;
+    width: 165px;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    font: 14px/1.5 "Microsoft Yahei", "Hiragino Sans GB", Helvetica, "Helvetica Neue", "΢���ź�", Tahoma, Arial, sans-serif;
+    color: #14191e;
+}
+a.rankingnickname:hover{
+    text-decoration: underline;
+    color: #b00606;
+}
+.leifeng-list-body .archieve {
+    margin-left: 10px;
+    display: block;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+    line-height: 18px;
+    width: 165px;
+    font-size: 12px;
+    color: #7e878c;
+    font-style: normal;
+    font: 14px/1.5 "Microsoft Yahei", "Hiragino Sans GB", Helvetica, "Helvetica Neue", "΢���ź�", Tahoma, Arial, sans-serif;
+}
+.leifeng-list-body .roll-head{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #f7f7f7;
+    overflow: hidden;
+    background: #ccc;
+
+}
+/*��Ϣչʾ����*/
+.GotoTop-info {
+    position: fixed;
+    right: 15px;
+    bottom: 105px;
+    z-index: 1030;
+}
+.GotoTop-info .GotoTop-info-weixin {
+    background-position: 0px -860px;
+}
+.GotoTop-info a.GotoTop-info-weixin:hover{
+    background-position: 0px -922px;
+}
+.GotoTop-info a.weixin::after{
+    content: '';
+    width: 166px;
+    height: 210px;
+    background: transparent url("../../../static/image/elevator.png") no-repeat scroll -2px 0px;
+    position: absolute;
+    left: -170px;
+    top: -150px;
+    display: block;
+}
+.GotoTop-info .GotoTop-info-msg {
+    background-position: 0px -426px;
+}
+.GotoTop-info a.GotoTop-info-msg:hover {
+    background-position: 0px -488px;
+}
+.GotoTop-info .GotoTop-info-app {
+    background-position: 0px -550px;
+}
+.GotoTop-info a.GotoTop-info-app:hover {
+    background-position: 0px -612px;
+}
+.GotoTop-info a.app::after{
+    content: '';
+    width: 166px;
+    height: 200px;
+    background: transparent url("../../../static/image/elevator.png") no-repeat scroll -2px -218px;
+    position: absolute;
+    left: -170px;
+    top: -20px;
+    display: block;
+}
+.show{
+    display: block!important;
+}
+.GotoTop-info .GotoTop-info-top {
+    background-position: 0px -674px;
+}
+.GotoTop-info a.GotoTop-info-top:hover {
+    background-position: 0px -736px;
+}
+.GotoTop-info a{
+    display: block;
+    margin: 1px 0px;
+    outline: medium none;
+    height: 52px;
+    width: 52px;
+    transition: background-position 0.15s ease 0s;
+    background: transparent url("../../../static/image/elevator.png") no-repeat scroll 0% 0%;
+    z-index: 1300;
+}
+
+
+
